@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakansha Arora - Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        h3 {
+            color: #333;
+        }
+        .contact-info {
+            margin: 15px 0;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .section-title {
+            background-color: #f1f1f1;
+            padding: 10px;
+            font-weight: bold;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .experience-list, .project-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .experience-item, .project-item {
+            background-color: #f7f7f7;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        .skills-list div {
+            background-color: #e0f7fa;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Aakansha Arora</h1>
+    <p><strong>Software Engineer</strong></p>
+    
+    <div class="contact-info">
+        <p>Email: <a href="mailto:aakansha.a03@gmail.com">aakansha.a03@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/aakansha-arora" target="_blank">aakansha-arora</a></p>
+    </div>
+
+    <div class="section-title">Education</div>
+    <ul>
+        <li><strong>Purdue University, Fort Wayne, USA</strong> - MS in Computer Science (3.9/4.00 GPA), Jan 23-Dec 24</li>
+        <li><strong>Bhilai Institute of Technology, Durg, India</strong> - BTech in Computer Science (9.4/10.0 GPA), Aug 16-Jun 20</li>
+    </ul>
+
+    <div class="section-title">Experience</div>
+    <div class="experience-list">
+        <div class="experience-item">
+            <h3>Software Engineering Intern, Parkview Health, Fort Wayne, USA (Jun 24-Dec 24)</h3>
+            <ul>
+                <li>Designed and built scalable, responsive SPAs using React, Redux, and CSS/HTML.</li>
+                <li>Contributed to front-end architecture for scalability and efficient data flow.</li>
+                <li>Developed reusable components, reducing redundancy by 40%.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Full Stack Developer, IBM PVT LTD, Bengaluru, India (Mar 21-Nov 22)</h3>
+            <ul>
+                <li>Developed scalable architecture systems using Spring-Boot and optimized user interactions.</li>
+                <li>Built AI-driven reporting dashboard using Python and machine learning models.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-title">Academic Projects</div>
+    <div class="project-list">
+        <div class="project-item">
+            <h3>SEAVAC – State Funded Project, Fort Wayne, USA</h3>
+            <ul>
+                <li>Built dynamic dashboard for real-time tracking of sales and revenue metrics.</li>
+                <li>Applied machine learning algorithms to predict sales trends and optimize financial metrics.</li>
+            </ul>
+        </div>
+        <div class="project-item">
+            <h3>Online Music Store – IBM Training Project, Bengaluru, India</h3>
+            <ul>
+                <li>Developed a full-stack online music store application using Spring Boot.</li>
+                <li>Utilized AWS services like S3 and EC2 for cloud-based deployment and storage.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-title">Skills</div>
+    <div class="skills-list">
+        <div>Java (Spring-boot, Mockito)</div>
+        <div>Python (Dash, Plotly, RASA, scikit-learn)</div>
+        <div>JavaScript (ReactJS, AlpineJS)</div>
+        <div>PHP (Laravel, Livewire)</div>
+        <div>Database (MySQL, Postgres)</div>
+        <div>Cloud (AWS S3, EC2)</div>
+        <div>CI/CD (Jenkins)</div>
+        <div>Docker</div>
+    </div>
+
+    <button onclick="alert('Profile saved!')">Save Profile</button>
+</div>
+
+<script>
+// You can add any extra interactivity or form submission logic here
+</script>
+
+</body>
+</html>
